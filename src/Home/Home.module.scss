@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+
+    span {
+        margin-left: 10px;
+        font-family: "poppins";
+        font-size: 30px;
+        color:  #2262c6;        
+        font-weight: bold; 
+
+    }
+}
+
+svg {
+    width: 40px; 
+    height: auto; 
+}
