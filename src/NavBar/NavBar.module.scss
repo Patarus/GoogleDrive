@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+
+    span {
+        margin-left: 10px;
+        font-family: "poppins";
+        font-size: 16px;
+        color:  #2262c6;        
+        font-weight: bold; 
+
+    }
+}
+
+
+
+.googleDriveLogo {
+    width: 20px;
+    height: auto;
+}
+
+
+.container {
+    width: 100%;
+    background-color: white;
+    padding: 0;
+}
+
+.topBar {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
