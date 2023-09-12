@@ -1,3 +1,14 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px; // Vous pouvez ajuster cet espace selon vos besoins
+}
+
+.username {
+    color: #aeb9ca;
+    font-size: 1rem; // Ajustez la taille de la police selon vos besoins
+}
+
 .badge {
     width: 35px;
     height: 35px;

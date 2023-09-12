@@ -2,10 +2,11 @@
     flex: 1;
     margin: 0 20px;
     position: relative;
+    // margin-left: 100px;
 }
 
 .searchInput {
-    width: 40%;
+    width: 80%;
     padding: 8px 12px;
     border: 1px solid #ccc;
     border-radius: 15px;
@@ -13,6 +14,7 @@
     outline: none;
     transition: border-color 0.3s ease;
     background-color: #f0f2f8;
+    
 
     &:focus {
         border-color: #2684fc;

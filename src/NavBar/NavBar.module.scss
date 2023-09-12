@@ -4,23 +4,14 @@
 .logoContainer {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
 
-    span {
-        margin-left: 10px;
-        font-family: "poppins";
-        font-size: 16px;
-        color:  #2262c6;        
-        font-weight: bold; 
-
-    }
 }
 
 
 
-.googleDriveLogo {
-    width: 20px;
-    height: auto;
-}
+
 
 
 .container {
@@ -30,9 +21,24 @@
 }
 
 .topBar {
-    width: 100%;
-    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; // pour aligner verticalement les éléments
+
+    .logoContainer,
+    .iconContainer,
+    .userBadgeContainer {
+        margin-right: 20px; // ajustez cette valeur selon votre préférence
+    }
+}
+
+.iconContainer {
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    gap: 10px;  // Espace entre les icônes
+}
+
+.iconStyle {
+    width: 20px;   // Ajustez selon vos préférences
+    height: auto;
 }
